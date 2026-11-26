@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env.local
+.claude/
+
+# Client-confidential source material and Drive-only files (not for the public repo)
+docs/design-references/
+docs/ACCEPTANCE_TEST_MATRIX.csv
+docs/COMPLETION_NOTE.txt
