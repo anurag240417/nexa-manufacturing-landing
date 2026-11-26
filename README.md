@@ -2,6 +2,9 @@
 
 A single-page React landing page for Nexa Manufacturing Unit India, with a registration-interest form. It follows the supplied desktop (1440px) and mobile (390px) designs and the copy in `CONTENT_AND_DESIGN.md`.
 
+**Live site:** https://nexa-manufacturing-landing.vercel.app/
+**Source:** https://github.com/anurag240417/nexa-manufacturing-landing
+
 > **The form does not store anything.** The supplied API only checks the submission and sends back an acknowledgement. It does not save the details, create an account or send email.
 
 ## Tech stack
@@ -100,6 +103,6 @@ Checked at 320, 390, 768, 1200 and 1440px with no horizontal scrolling.
 
 ## Test results
 
-- Lighthouse 12.8.2 on the local production build scored 100 for Performance, Accessibility, Best Practices and SEO, on both mobile and desktop.
-- Google Chrome 158 and Firefox 155 each passed all 19 automated interactive checks.
+- Lighthouse 12.8.2 on the live Vercel URL scored 100 for Performance on both mobile (median of 3 runs) and desktop. Accessibility, Best Practices and SEO also scored 100.
+- Google Chrome 158 and Firefox 155 each passed all 19 automated interactive checks, on both the local build and the live site.
 - Details and screenshots are in `docs/Completed_Acceptance_Test_Log.csv` and `docs/screenshots/`.
